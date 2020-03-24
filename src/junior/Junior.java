@@ -45,7 +45,14 @@ public class Junior extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        launch(args);
+      //  launch(args);
+      ClasseServices cp = new ClasseServices();
+      //classe      
+        cp.ajouter2(new Classe(3,2,3,"Mah"));
+       //cp.afficher().forEach(System.out::println);
+       // cp.supprimer(c);
+       // cp.modifier(c);
+        //GradeServices gr = new GradeServices();
     }
     
 }
